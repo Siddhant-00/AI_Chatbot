@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# LangChain / Chroma
+chroma_db/
+faiss_index/
